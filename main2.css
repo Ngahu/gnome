@@ -68,6 +68,7 @@ footer
 footer {
     padding-bottom: 30px;
     padding-top: 30px;
+    text-align: center;
 }
 .section {
     border: 10px solid navajowhite;
@@ -93,4 +94,33 @@ COLUMN
     vertical-align: top;
     padding-left: 15 px;
     padding-right: 15px;
+}
+
+/*==================
+float
+===================*/
+
+.float-right {
+    float: right;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+.float-left {
+    float: left;
+    padding-right: 7px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+/*=================
+clearfix
+=================*/
+
+.clear-fix {
+    clear: both;
+}
+.space {
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
 }
