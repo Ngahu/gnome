@@ -36,6 +36,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: left top left bottom right top right bottom;
     height: 266px;
+    width: inherit;
 }
 blockquote {
     width: 200px;
@@ -119,8 +120,21 @@ clearfix
 .clear-fix {
     clear: both;
 }
-.space {
+.spacey {
     background-color: green;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+}
+.number {
+    display: inline;
+    float: right;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+div {
+    float: left;
+    display: inline;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
 }
